@@ -56,6 +56,7 @@ public class Inimigo : Personagem
         }
         
         // dano do ataque com a arma
+        Debug.Log(dano);
         
         return dano;
     }

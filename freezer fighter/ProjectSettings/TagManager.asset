@@ -8,6 +8,9 @@ TagManager:
   - Inimigo
   - ataqueplayer
   - AtaquePlayer
+  - Ataque
+  - AtaqueH
+  - AtaqueHeroi
   layers:
   - Default
   - TransparentFX

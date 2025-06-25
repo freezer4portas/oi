@@ -31,7 +31,7 @@ public class Personagem : MonoBehaviour
 
     public void AtribuirEnergia(int energia)
     {
-        this.energia = 50;
+        this.energia = energia;
     }
 
     public int Energia()
@@ -41,7 +41,7 @@ public class Personagem : MonoBehaviour
 
     public void AtribuirForca_Ataque(int forca_ataque)
     {
-        this.forca_ataque = 10;
+        this.forca_ataque = forca_ataque;
     }
 
     public int Forca_Ataque()
@@ -51,7 +51,7 @@ public class Personagem : MonoBehaviour
 
     public void AtribuirForca_do_pulo(float forca_do_pulo)
     {
-        this.forca_do_pulo = 10;
+        this.forca_do_pulo = forca_do_pulo;
     }
 
     public float Forca_do_pulo()
@@ -62,7 +62,7 @@ public class Personagem : MonoBehaviour
 
     public void AtribuirVelocidade(float velocidade)
     {
-        this.velocidade = 10;
+        this.velocidade = velocidade;
     }
 
     public float Velocidade()
@@ -72,7 +72,7 @@ public class Personagem : MonoBehaviour
 
     public void AtribuitNumero_de_pes(int numero_de_pes)
     {
-        this.numero_de_pes = 2;
+        this.numero_de_pes = numero_de_pes;
     }
 
     public int Numero_de_pes()
@@ -82,7 +82,7 @@ public class Personagem : MonoBehaviour
 
     public void AtribuitNumero_de_maos(int numero_de_maos)
     {
-        this.numero_de_maos = 10;
+        this.numero_de_maos = numero_de_maos;
     }
 
     public int Numero_de_maos()
@@ -101,5 +101,10 @@ public class Personagem : MonoBehaviour
     void Update()
     {
         
+    }
+
+    public void Forca_Ataque(int i)
+    {
+        throw new System.NotImplementedException();
     }
 }

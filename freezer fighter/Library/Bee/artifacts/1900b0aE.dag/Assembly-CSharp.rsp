@@ -442,12 +442,14 @@
 -analyzer:"C:/Program Files/Unity 6000.0.42f1/Editor/Data/Tools/Unity.SourceGenerators/Unity.UIToolkit.SourceGenerator.dll"
 "Assets/script/ataque.cs"
 "Assets/script/atqueplayer.cs"
+"Assets/script/dano.cs"
 "Assets/script/enemymov.cs"
 "Assets/script/inimigo.cs"
 "Assets/script/InimigoManager.cs"
 "Assets/script/Personagem.cs"
 "Assets/script/player mov.cs"
 "Assets/script/PLAYERMANAGE.cs"
+"Assets/script/teste.cs"
 "Assets/script/TesteDanoInimigo.cs"
 -langversion:9.0
 /deterministic
